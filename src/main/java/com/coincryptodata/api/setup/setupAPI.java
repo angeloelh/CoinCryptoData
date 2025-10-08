@@ -1,4 +1,4 @@
-package com.coincryptodata.api;
+package com.coincryptodata.api.setup;
 
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
