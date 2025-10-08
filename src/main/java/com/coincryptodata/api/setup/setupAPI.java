@@ -19,7 +19,7 @@ public class setupAPI {
                 .host("pro-api.coinmarketcap.com")
                 .path("/v1/cryptocurrency/listings/latest")
                 .queryParam("start", "1")
-                .queryParam("limit", "5")
+                .queryParam("limit", "100")
                 .queryParam("convert", "USD")
                 .toUriString();
 
